@@ -1,2 +1,3 @@
 # someshchauhan.github.io
-My website
+i have created a website for my own information and qualifications.
+
