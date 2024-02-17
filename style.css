@@ -1,0 +1,224 @@
+*{margin: 0; padding: 0;}
+    body
+    {
+      background: url(images/Designer.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .nav
+    {
+      height: 10vh;
+      padding: 0% 5%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: rgba(0,0,0,0.5);
+    }
+
+    .start a
+    {
+      text-decoration: none;
+      color: white;
+      font-size: 2rem;
+      font-weight: 400;
+      font-family: algerian;
+      border-bottom: 2px solid aliceblue;
+    }
+
+    .contacts a
+    {
+      color: aliceblue;
+      padding: 5px;
+      background-color: black;
+      border-radius: 10px;
+      font-size: 1.5rem;
+    }
+
+    .contacts a:hover
+    {
+      background-color: aliceblue;
+      color: black;
+    }
+
+    .container
+    {
+      width: 60%;
+      height: 80vh;
+      margin: auto;
+      margin-top: 10vh;
+      background: linear-gradient(45deg, rgba(0,0,0,0.3),rgba(0,0,0,0.6),rgba(0,0,0,0.9));
+      border-radius: 15px;
+      box-shadow: 5px 5px 5px rgba(255,255,255,0.5);
+    }
+
+    .profile
+    {
+      height: 25vh;
+      background: linear-gradient(35deg, rgb(28, 28, 108), rgb(7, 7, 29), rgb(1, 8, 44));
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      border-radius: 15px 15px 0 0;
+      position: relative;
+      
+    }
+    .profile img
+    {
+      width: 200px;
+      border-radius: 50%;
+      position: absolute;
+      top: 10vh;
+      left: 3%;
+    }
+
+    .info
+    {
+      margin-left: 20%;
+    }
+
+
+    .info h1, .info h3
+    {
+      color: aliceblue;
+      font-family: algerian;
+      border-bottom: 1px solid aliceblue;
+      text-align: center;
+      line-height: 7.5vh;
+      letter-spacing: 2px;
+    }
+
+    .tracking-out-expand
+    {
+      -webkit-animation: tracking-out-expand 2s linear 3s infinite both;
+	        animation: tracking-out-expand 2s linear 3s infinite both;
+    }
+
+    @-webkit-keyframes tracking-out-expand {
+  0% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 0.8;
+  }
+  100% {
+    letter-spacing: 1em;
+    opacity: 0;
+  }
+}
+@keyframes tracking-out-expand {
+  0% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 0.8;
+  }
+  100% {
+    letter-spacing: 1em;
+    opacity: 0;
+  }
+}
+  
+
+
+   
+
+    .about
+    {
+      height: 30vh;
+      display: flex;
+    }
+    
+    .cv
+    {
+      height: 30vh;
+      width: 50%;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      background-color: hwb(207 3% 78%);
+    }
+
+    .cv a
+    {
+      text-decoration: none;
+      color: black;
+      background-color: aliceblue;
+      width: 100px;
+      padding: 15px 0;
+      text-align: center;
+      border-radius: 20px;
+      font-weight: 900;
+      font-family: rockwell;
+      box-shadow: 0 5px 5px rgba(255,255,255,0.3);
+    }
+
+    .cv a:hover
+    {
+      background-color: red;
+      color: white;
+      letter-spacing: 2px;
+      box-shadow: 0 15px 15px rgba(255,255,255,0.3);
+    }
+
+    .objective
+    {
+      height: 30vh;
+      width: 50%;
+      background-color: rgba(0,0,0,0.9);
+      color: aliceblue;
+      font-family: rockwell;
+      padding: 0 5%;
+    }
+    
+    .objective h2
+    {
+      font-family: algerian;
+    }
+
+    .objective p
+    {
+      text-align: justify;
+    }
+
+
+    
+
+    .skills
+    {
+      min-height: 25vh;
+      background-color: rgba(255,255,255,0.7);
+      border-radius: 0 0 15px 15px;
+      color: black;
+      font-family: algerian;
+     
+    }
+
+
+
+    .tech{
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .box
+    {
+      background-color: white;
+      height: 150px;
+      width: 150px;
+      color: black;
+      padding: 5px;
+      border-radius: 15px;
+      box-shadow: 0 5px 5px rgba(0,0,0,0.5);
+    }
+
+    .box h3
+    {
+      background-color: hwb(207 3% 78%);
+      color: aliceblue;
+      padding: 0 7px;
+      border-radius: 10px;
+    }
