@@ -166,6 +166,8 @@ body {
 
 .objective p {
   text-align: justify;
+  font-family: lemon;
+  font-size: 10px;
 }
 
 .skills {
