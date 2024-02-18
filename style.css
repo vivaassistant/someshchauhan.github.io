@@ -45,7 +45,6 @@ body {
 
 .container {
   width: 60%;
-  height: 80vh;
   margin: auto;
   margin-top: 10vh;
   background: linear-gradient(45deg, rgba(0,0,0,0.3),rgba(0,0,0,0.6),rgba(0,0,0,0.9));
@@ -117,7 +116,6 @@ body {
 }
 
 .about {
-  height: 30vh;
   display: flex;
 }
 
@@ -171,7 +169,6 @@ body {
 }
 
 .skills {
-  min-height: 25vh;
   background-color: rgba(255,255,255,0.7);
   border-radius: 0 0 15px 15px;
   color: black;
@@ -219,12 +216,10 @@ body {
   .container
   {
     width: 95%;
-    min-height: 170vh;
   }
   .about
   {
     display: block;
-    height: 70vh;
   }
   .cv
   {
@@ -240,7 +235,6 @@ body {
   {
     width: 100%;
     display: block;
-    height: 80vh;
     padding: 0;
   }
   .box
@@ -273,7 +267,6 @@ body {
   .container
   {
     width: 100%;
-    min-height: 160vh;
     font-family: lemon;
   }
   .profile
@@ -306,7 +299,6 @@ body {
   .about
   {
     display: block;
-    height: 60vh;
   }
   .cv
   {
