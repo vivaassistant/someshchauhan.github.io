@@ -257,6 +257,11 @@
         font-family: lemon;
       }
 
+      .start a
+      {
+        font-family: lemon;
+      }
+
       .contacts
       {
         margin-top: 15px;
@@ -285,6 +290,11 @@
         margin-left: 0;
       }
 
+      .info h1, .info h3
+      {
+        font-family: lemon;
+      }
+
       .info h3
       {
         font-size: 1rem;
@@ -297,6 +307,11 @@
       {
         width: 100%;
       }
+
+      .cv a
+      {
+        font-family: lemon;
+      }
       .objective
       {
         width: 100%;
@@ -305,10 +320,12 @@
       {
         font-family: lemon;
       }
+
       .skills
       {
         width: 100%;
         display: block;
+        font-family: lemon;
       }
       .box
       {
